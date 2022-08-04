@@ -8,3 +8,13 @@
 2022/08/04 12:14:49 todos.go:31: incomplete input
 2022/08/04 12:21:19 todos.go:31: incomplete input
 2022/08/04 12:21:51 todos.go:31: incomplete input
+2022/08/04 21:25:29 todos.go:83: near "todos": syntax error
+2022/08/04 21:26:06 todos.go:84: near "todos": syntax error
+2022/08/04 21:26:30 todos.go:84: near "todos": syntax error
+2022/08/04 21:27:20 todos.go:84: near "todos": syntax error
+2022/08/04 21:27:32 todos.go:84: near "todos": syntax error
+2022/08/04 21:27:51 todos.go:84: near "todos": syntax error
+2022/08/04 21:28:06 todos.go:84: near "todos": syntax error
+2022/08/04 21:28:28 todos.go:83: near "todos": syntax error
+2022/08/04 21:29:01 todos.go:85: near "todos": syntax error
+2022/08/04 21:29:16 todos.go:85: near "todos": syntax error

@@ -40,6 +40,7 @@ func init() {
 	cmdT := fmt.Sprintf(`create table if not exists %s (
 		id integer primary key autoincrement,
 		title string not null,
+		user_id integer,
 		category_id integer,
 		start_time datetime,
 		end_time datetime,
