@@ -2,19 +2,49 @@
 
 body {
   padding: 10px;
-  background-color: rgb(210, 255, 240);
+  background-color: rgb(56, 154, 245);
 }
 
+/* layoutのcss */
 .wrapper {
   max-width: 670px;
   margin: 0px auto;
   border: solid 1px;
   border-radius: 10px;
   background-color: white;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
+/* top.htmlのcss */
 .main-title {
   padding: 10%;
   text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn--orange,
+a.btn--orange {
+  display: inline-block;
+  color: black;
+  background-color: white;
+  border: 3px solid black;
+  padding: 20px 60px;
+  transition: ease 0.3s;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: rgb(0, 133, 235);
+}
+
+a.btn--radius {
+   border-radius: 100vh;
 }
