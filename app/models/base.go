@@ -22,6 +22,7 @@ const (
 )
 
 func init() {
+	// defer Db.Close()
 	Db, err = sql.Open(config.Config.SQLDriver, config.Config.DbName)
 	if err != nil {
 		log.Fatalln(err)

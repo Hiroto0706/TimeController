@@ -14,8 +14,8 @@ type Category struct {
 
 func (c *Category) CreateCategory() (err error) {
 	cmd := `insert into categories (
-		Name,
-		Color,
+		name,
+		color,
 		created_at) values (?, ?, ?)`
 
 	_, err = Db.Exec(cmd, c.Name, c.Color, time.Now())
