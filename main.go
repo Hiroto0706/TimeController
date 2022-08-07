@@ -1,15 +1,13 @@
 package main
 
-import "timecontroller/app/controllers"
+import (
+	"fmt"
+	"timecontroller/app/controllers"
+	"timecontroller/app/models"
+)
 
 func main() {
 	controllers.StartMainServer()
+	fmt.Println(models.Db)
 
-	// user, _ := models.GetUser(1)
-	// fmt.Println(user)
-
-	// if user.Password == models.Encrypt("password") {
-	// 	fmt.Println(user.Password)
-	// 	fmt.Println(models.Encrypt("password"))
-	// }
 }
