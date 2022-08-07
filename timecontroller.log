@@ -1340,3 +1340,46 @@ created by net/http.(*Server).Serve
 	/usr/local/go/src/net/http/server.go:3071 +0x800
 2022/08/07 12:45:44 users.go:104: UNIQUE constraint failed: sessions.uuid
 2022/08/07 14:21:05 users.go:104: UNIQUE constraint failed: sessions.uuid
+2022/08/07 18:43:08 users.go:104: UNIQUE constraint failed: sessions.uuid
+2022/08/07 18:43:30 users.go:104: UNIQUE constraint failed: sessions.uuid
+2022/08/07 20:58:52 server.go:3197: http: superfluous response.WriteHeader call from timecontroller/app/controllers.signup (route_auth.go:51)
+2022/08/07 21:04:42 server.go:3197: http: superfluous response.WriteHeader call from timecontroller/app/controllers.signup (route_auth.go:51)
+2022/08/07 21:05:40 server.go:3197: http: superfluous response.WriteHeader call from timecontroller/app/controllers.signup (route_auth.go:51)
+2022/08/07 21:16:10 route_auth.go:29: signup のcreateUser前 password 
+2022/08/07 21:16:10 route_auth.go:35: signup のcreateUserあと password 
+2022/08/07 21:18:06 route_auth.go:29: signup のcreateUser前 password 
+2022/08/07 21:18:06 route_auth.go:35: signup のcreateUserあと password 
+2022/08/07 21:19:07 route_auth.go:29: signup のcreateUser前 password 
+2022/08/07 21:19:07 route_auth.go:35: signup のcreateUserあと password 
+2022/08/07 21:20:42 route_auth.go:29: signup のcreateUser前 password 
+2022/08/07 21:20:42 route_auth.go:35: signup のcreateUserあと password 
+2022/08/07 21:20:42 route_auth.go:54: passwordのところでエラーおきたよ
+2022/08/07 21:20:42 route_auth.go:58: 最後まで行ったよ
+2022/08/07 21:20:42 server.go:3197: http: superfluous response.WriteHeader call from timecontroller/app/controllers.signup (route_auth.go:59)
+2022/08/07 21:21:53 route_auth.go:29: signup のcreateUser前 password 
+2022/08/07 21:21:53 route_auth.go:35: signup のcreateUserあと password 
+2022/08/07 21:21:53 route_auth.go:36: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/07 21:21:53 route_auth.go:55: passwordのところでエラーおきたよ
+2022/08/07 21:21:53 route_auth.go:59: 最後まで行ったよ
+2022/08/07 21:21:53 server.go:3197: http: superfluous response.WriteHeader call from timecontroller/app/controllers.signup (route_auth.go:60)
+2022/08/07 21:26:21 route_auth.go:29: signup のcreateUser前 password 
+2022/08/07 21:26:21 route_auth.go:41: signup のcreateUserあと 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8 
+2022/08/07 21:26:21 route_auth.go:42: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/07 21:26:21 route_auth.go:45: createsesionまで行ってるよ
+2022/08/07 21:26:21 route_auth.go:50: <nil>
+2022/08/07 21:26:21 route_auth.go:64: 最後まで行ってるよう
+2022/08/07 21:27:55 route_auth.go:29: signup のcreateUser前 password 
+2022/08/07 21:27:55 route_auth.go:41: signup のcreateUserあと 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8 
+2022/08/07 21:27:55 route_auth.go:42: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/07 21:27:55 route_auth.go:45: createsesionまで行ってるよ
+2022/08/07 21:27:55 route_auth.go:50: <nil>
+2022/08/07 21:27:55 route_auth.go:64: 最後まで行ってるよう
+2022/08/07 21:31:47 route_auth.go:29: signup のcreateUser前 password 
+2022/08/07 21:31:47 route_auth.go:41: signup のcreateUserあと 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8 
+2022/08/07 21:31:47 route_auth.go:42: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/07 21:31:47 route_auth.go:45: createsesionまで行ってるよ
+2022/08/07 21:31:47 route_auth.go:50: <nil>
+2022/08/07 21:31:47 route_auth.go:64: 最後まで行ってるよう
+2022/08/07 21:39:11 route_auth.go:86: {10 f05cc734-164d-11ed-bb04-76f726d9817d test@test.com 1 2022-08-07 21:39:11.926023 +0900 +0900}
+2022/08/07 21:39:58 route_auth.go:86: {11 0bd88e94-164e-11ed-bb04-76f726d9817d test@test.com 1 2022-08-07 21:39:58.035523 +0900 +0900}
+2022/08/07 21:40:22 route_auth.go:86: {12 1aa077e8-164e-11ed-bb04-76f726d9817d shintani@test.com 7 2022-08-07 21:40:22.833765 +0900 +0900}

@@ -52,8 +52,7 @@ func GetUser(id int) (user User, err error) {
 		&user.Name,
 		&user.Email,
 		&user.Password,
-		&user.CreatedAt,
-	)
+		&user.CreatedAt)
 
 	return user, err
 }
@@ -86,8 +85,7 @@ func GetUserByEmail(email string) (user User, err error) {
 		&user.Name,
 		&user.Email,
 		&user.Password,
-		&user.CreatedAt,
-	)
+		&user.CreatedAt)
 	return user, err
 }
 
@@ -99,7 +97,7 @@ func (u *User) CreateSession() (session Session, err error) {
 		user_id, 
 		created_at) values (?, ?, ?, ?)`
 
-	_, err = Db.Exec(cmd1, u.UUID, u.Email, u.ID, time.Now())
+	_, err = Db.Exec(cmd1, CreateUUID(), u.Email, u.ID, time.Now())
 	if err != nil {
 		log.Println(err)
 	}
@@ -111,8 +109,7 @@ func (u *User) CreateSession() (session Session, err error) {
 		&session.UUID,
 		&session.Email,
 		&session.UserID,
-		&session.CreatedAt,
-	)
+		&session.CreatedAt)
 
 	return session, err
 }
@@ -125,8 +122,7 @@ func (sess *Session) CheckSession() (valid bool, err error) {
 		&sess.UUID,
 		&sess.Email,
 		&sess.UserID,
-		&sess.CreatedAt,
-	)
+		&sess.CreatedAt)
 
 	if err != nil {
 		valid = false
@@ -138,4 +134,14 @@ func (sess *Session) CheckSession() (valid bool, err error) {
 	}
 
 	return valid, err
+}
+
+func (sess *Session) DeleteSessionByUUID() (err error) {
+	cmd := `delete from sessions where uuid = ?`
+	_, err = Db.Exec(cmd, sess.UUID)
+	if err != nil {
+		log.Fatalln(err)
+	}
+
+	return err
 }
