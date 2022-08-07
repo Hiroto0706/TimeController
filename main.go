@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
 	"timecontroller/app/controllers"
-	"timecontroller/config"
 )
 
 func main() {
@@ -11,6 +9,6 @@ func main() {
 
 	// fmt.Println(models.Db)
 
-	fmt.Println(config.Config.Static)
+	// fmt.Println(config.Config.Static)
 
 }

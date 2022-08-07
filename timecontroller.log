@@ -18,3 +18,223 @@
 2022/08/04 21:28:28 todos.go:83: near "todos": syntax error
 2022/08/04 21:29:01 todos.go:85: near "todos": syntax error
 2022/08/04 21:29:16 todos.go:85: near "todos": syntax error
+2022/08/07 11:55:34 server.go:3197: http: panic serving [::1]:49774: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 5 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x100675c60, 0x14000096120})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x1006bd828, 0x14000096120})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x1006bfae0, 0x140001ac000}, {0x0, 0x0}, {0x14000109578, 0x3, 0x3})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:16 +0xdc
+timecontroller/app/controllers.top({0x1006bfae0, 0x140001ac000}, 0x14000196000)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:8 +0xe4
+net/http.HandlerFunc.ServeHTTP(0x1006bc0e0, {0x1006bfae0, 0x140001ac000}, 0x14000196000)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x1008ac640, {0x1006bfae0, 0x140001ac000}, 0x14000196000)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x1006bfae0, 0x140001ac000}, 0x14000196000)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x1400011ef00, {0x1006bfcc0, 0x14000190000})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/07 11:55:35 server.go:3197: http: panic serving [::1]:49775: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 6 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x100675c60, 0x140000964e0})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x1006bd828, 0x140000964e0})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x1006bfae0, 0x140000e0000}, {0x0, 0x0}, {0x1400010d578, 0x3, 0x3})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:16 +0xdc
+timecontroller/app/controllers.top({0x1006bfae0, 0x140000e0000}, 0x1400015c100)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:8 +0xe4
+net/http.HandlerFunc.ServeHTTP(0x1006bc0e0, {0x1006bfae0, 0x140000e0000}, 0x1400015c100)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x1008ac640, {0x1006bfae0, 0x140000e0000}, 0x1400015c100)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x1006bfae0, 0x140000e0000}, 0x1400015c100)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x1400011efa0, {0x1006bfcc0, 0x1400002a4c0})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/07 11:55:35 server.go:3197: http: panic serving [::1]:49776: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x100675c60, 0x1400018e270})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x1006bd828, 0x1400018e270})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x1006bfae0, 0x140000e00e0}, {0x0, 0x0}, {0x14000109578, 0x3, 0x3})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:16 +0xdc
+timecontroller/app/controllers.top({0x1006bfae0, 0x140000e00e0}, 0x140000d4000)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:8 +0xe4
+net/http.HandlerFunc.ServeHTTP(0x1006bc0e0, {0x1006bfae0, 0x140000e00e0}, 0x140000d4000)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x1008ac640, {0x1006bfae0, 0x140000e00e0}, 0x140000d4000)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x1006bfae0, 0x140000e00e0}, 0x140000d4000)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x140000d2000, {0x1006bfcc0, 0x14000092140})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/07 11:55:35 server.go:3197: http: panic serving [::1]:49777: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 36 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x100675c60, 0x1400018e570})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x1006bd828, 0x1400018e570})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x1006bfae0, 0x140001ac0e0}, {0x0, 0x0}, {0x1400010b578, 0x3, 0x3})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:16 +0xdc
+timecontroller/app/controllers.top({0x1006bfae0, 0x140001ac0e0}, 0x14000196100)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:8 +0xe4
+net/http.HandlerFunc.ServeHTTP(0x1006bc0e0, {0x1006bfae0, 0x140001ac0e0}, 0x14000196100)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x1008ac640, {0x1006bfae0, 0x140001ac0e0}, 0x14000196100)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x1006bfae0, 0x140001ac0e0}, 0x14000196100)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x140001de000, {0x1006bfcc0, 0x14000190280})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/07 11:55:35 server.go:3197: http: panic serving [::1]:49778: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 39 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x100675c60, 0x1400018e960})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x1006bd828, 0x1400018e960})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x1006bfae0, 0x140001ac1c0}, {0x0, 0x0}, {0x14000109578, 0x3, 0x3})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:16 +0xdc
+timecontroller/app/controllers.top({0x1006bfae0, 0x140001ac1c0}, 0x140000d4100)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:8 +0xe4
+net/http.HandlerFunc.ServeHTTP(0x1006bc0e0, {0x1006bfae0, 0x140001ac1c0}, 0x140000d4100)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x1008ac640, {0x1006bfae0, 0x140001ac1c0}, 0x140000d4100)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x1006bfae0, 0x140001ac1c0}, 0x140000d4100)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x140001de0a0, {0x1006bfcc0, 0x14000092540})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/07 11:56:36 server.go:3197: http: panic serving [::1]:49806: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x103509c60, 0x140000a3590})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x103551828, 0x140000a3590})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x103553ae0, 0x1400013a000}, {0x0, 0x0}, {0x1400009b578, 0x3, 0x3})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:16 +0xdc
+timecontroller/app/controllers.top({0x103553ae0, 0x1400013a000}, 0x14000126000)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:8 +0xe4
+net/http.HandlerFunc.ServeHTTP(0x1035500e0, {0x103553ae0, 0x1400013a000}, 0x14000126000)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x103740640, {0x103553ae0, 0x1400013a000}, 0x14000126000)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x14000198000}, {0x103553ae0, 0x1400013a000}, 0x14000126000)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x140000bee60, {0x103553cc0, 0x14000118000})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/07 11:56:36 server.go:3197: http: panic serving [::1]:49807: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x103509c60, 0x140000a3950})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x103551828, 0x140000a3950})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x103553ae0, 0x140001980e0}, {0x0, 0x0}, {0x1400009f578, 0x3, 0x3})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:16 +0xdc
+timecontroller/app/controllers.top({0x103553ae0, 0x140001980e0}, 0x1400018a100)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:8 +0xe4
+net/http.HandlerFunc.ServeHTTP(0x1035500e0, {0x103553ae0, 0x140001980e0}, 0x1400018a100)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x103740640, {0x103553ae0, 0x140001980e0}, 0x1400018a100)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x14000198000}, {0x103553ae0, 0x140001980e0}, 0x1400018a100)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x140000bef00, {0x103553cc0, 0x140000e4480})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/07 11:56:36 server.go:3197: http: panic serving [::1]:49808: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 22 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x103509c60, 0x140000a3c50})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x103551828, 0x140000a3c50})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x103553ae0, 0x140001981c0}, {0x0, 0x0}, {0x1400009b578, 0x3, 0x3})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:16 +0xdc
+timecontroller/app/controllers.top({0x103553ae0, 0x140001981c0}, 0x1400018a200)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:8 +0xe4
+net/http.HandlerFunc.ServeHTTP(0x1035500e0, {0x103553ae0, 0x140001981c0}, 0x1400018a200)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x103740640, {0x103553ae0, 0x140001981c0}, 0x1400018a200)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x14000198000}, {0x103553ae0, 0x140001981c0}, 0x1400018a200)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x140000befa0, {0x103553cc0, 0x140000e4640})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/07 11:56:36 server.go:3197: http: panic serving [::1]:49809: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 27 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x103509c60, 0x14000208120})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x103551828, 0x14000208120})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x103553ae0, 0x1400013a0e0}, {0x0, 0x0}, {0x1400009b578, 0x3, 0x3})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:16 +0xdc
+timecontroller/app/controllers.top({0x103553ae0, 0x1400013a0e0}, 0x1400018a500)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:8 +0xe4
+net/http.HandlerFunc.ServeHTTP(0x1035500e0, {0x103553ae0, 0x1400013a0e0}, 0x1400018a500)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x103740640, {0x103553ae0, 0x1400013a0e0}, 0x1400018a500)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x14000198000}, {0x103553ae0, 0x1400013a0e0}, 0x1400018a500)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x140000bf040, {0x103553cc0, 0x140000e4ac0})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/07 11:56:37 server.go:3197: http: panic serving [::1]:49810: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 50 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x103509c60, 0x140001166f0})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x103551828, 0x140001166f0})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x103553ae0, 0x1400013a1c0}, {0x0, 0x0}, {0x1400009d578, 0x3, 0x3})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:16 +0xdc
+timecontroller/app/controllers.top({0x103553ae0, 0x1400013a1c0}, 0x14000126300)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:8 +0xe4
+net/http.HandlerFunc.ServeHTTP(0x1035500e0, {0x103553ae0, 0x1400013a1c0}, 0x14000126300)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x103740640, {0x103553ae0, 0x1400013a1c0}, 0x14000126300)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x14000198000}, {0x103553ae0, 0x1400013a1c0}, 0x14000126300)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x1400024a000, {0x103553cc0, 0x14000118300})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
