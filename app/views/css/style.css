@@ -53,12 +53,12 @@ a {
   color: black;
 }
 
-.login-btn {
+.login-btn, .logout-btn {
   text-align: center;
 }
 
-.btn--orange,
-a.btn--orange {
+.btn--color,
+a.btn--color {
   display: inline-block;
   color: black;
   background-color: white;
@@ -66,14 +66,19 @@ a.btn--orange {
   padding: 20px 60px;
   transition: ease 0.3s;
 }
-.btn--orange:hover,
-a.btn--orange:hover {
+.btn--color:hover,
+a.btn--color:hover {
   color: #fff;
   background: rgb(0, 133, 235);
 }
 
 a.btn--radius, .btn--radius {
    border-radius: 100vh;
+}
+
+/* logoutボタンに関するcss */
+.logout-btn a:hover {
+  background-color: rgb(227, 52, 52);
 }
 
 
