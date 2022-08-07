@@ -19,6 +19,7 @@ const (
 	tableNameUser     = "users"
 	tableNameTodo     = "todos"
 	tableNameCategory = "categories"
+	tableNameSession  = "sessions"
 )
 
 func init() {
@@ -56,6 +57,15 @@ func init() {
 		created_at datetime)`, tableNameCategory)
 
 	Db.Exec(cmdC)
+
+	cmdS := fmt.Sprintf(`create table if not exists %s (
+		id integer primary key autoincrement,
+		uuid string not null unique,
+		email string,
+		user_id integer,
+		created_at datetime)`, tableNameSession)
+
+	Db.Exec(cmdS)
 }
 
 func CreateUUID() (uuidobj uuid.UUID) {

@@ -1,11 +1,10 @@
 {{ define "content" }}
-<form class="form-signin" role="form" action="/authenticate" method="post">
+<form role="form" action="/authenticate" method="post">
   <h1 class="text-center">LogIn</h1>
   <input type="email" name="email" class="form-control" placeholder="Email" required autofocus>
   <input type="password" name="password" class="form-control" placeholder="Password">
-  <!-- <br/> -->
   <button class="btn btn--orange btn--radius margin-top-20 margin-bottom-20" type="submit">ログイン</button>
   <br/>
-  <p>はじめての方は<a class="lead pull-right" href="/signup">こちら</a></p>
+  <p>はじめての方は<a href="/signup">こちら</a></p>
 </form>
 {{end}}

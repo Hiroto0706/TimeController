@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .margin-top-20{
   margin-top: 20px;
 }
@@ -81,9 +85,6 @@ a.btn--radius, .btn--radius {
 }
 
 /* signup.htmlのcss*/
-.text-center {
-  text-align: center;
-}
 
 form {
   margin:0px auto;

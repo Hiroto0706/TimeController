@@ -1338,3 +1338,5 @@ net/http.(*conn).serve(0x140002500a0, {0x104c63cb0, 0x1400020a180})
 	/usr/local/go/src/net/http/server.go:1966 +0x1510
 created by net/http.(*Server).Serve
 	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/07 12:45:44 users.go:104: UNIQUE constraint failed: sessions.uuid
+2022/08/07 14:21:05 users.go:104: UNIQUE constraint failed: sessions.uuid
