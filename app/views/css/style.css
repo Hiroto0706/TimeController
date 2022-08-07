@@ -13,6 +13,14 @@ a {
   text-decoration: none;
 }
 
+.margin-top-20{
+  margin-top: 20px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
 /* layoutのcss */
 .wrapper {
   max-width: 670px;
@@ -72,20 +80,6 @@ a.btn--radius, .btn--radius {
   width: 50%;
 }
 
-/* nav-barのcss */
-.nav-bar {
-  margin: 5px 15px;
-}
-
-.nav-bar a {
-  color: black;
-  transition: ease 0.1s;
-}
-
-.nav-bar a:hover {
-  color: red;
-}
-
 /* signup.htmlのcss*/
 .text-center {
   text-align: center;
@@ -109,6 +103,3 @@ form h1 {
   margin: 10px auto;
 }
 
-.margin-top-20 {
-  margin-top: 20px;
-}

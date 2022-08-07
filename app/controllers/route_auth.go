@@ -8,7 +8,7 @@ import (
 
 func signup(w http.ResponseWriter, r *http.Request) {
 	if r.Method == "GET" {
-		generateHTML(w, nil, "layout", "public-navbar", "signup")
+		generateHTML(w, nil, "layout", "signup")
 	} else if r.Method == "POST" {
 		err := r.ParseForm()
 		if err != nil {
@@ -30,5 +30,5 @@ func signup(w http.ResponseWriter, r *http.Request) {
 }
 
 func login(w http.ResponseWriter, r *http.Request) {
-	generateHTML(w, nil, "layout", "public_navbar", "login")
+	generateHTML(w, nil, "layout", "login")
 }
