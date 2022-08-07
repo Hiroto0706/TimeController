@@ -26,8 +26,6 @@ func signup(w http.ResponseWriter, r *http.Request) {
 			Password: r.PostFormValue("password"),
 		}
 
-		log.Printf("signup のcreateUser前 %v ", user.Password)
-
 		if user.CreateUser(); err != nil {
 			log.Println(err)
 		}
@@ -38,13 +36,11 @@ func signup(w http.ResponseWriter, r *http.Request) {
 			http.Redirect(w, r, "/signup", 302)
 		}
 
-		log.Printf("signup のcreateUserあと %v ", user.Password)
-		log.Println(models.Encrypt(r.PostFormValue("password")))
-
 		if user.Password == models.Encrypt(r.PostFormValue("password")) {
 			session, err := user.CreateSession()
 			if err != nil {
 				log.Println(err)
+				log.Println("aiueo")
 			}
 
 			cookie := http.Cookie{
