@@ -1,9 +1,11 @@
 {{define "content"}}
 <form role="form" action="/signup" method="post">
-  <h1 class="text-center">SignUp</h1>
+  <h1 class="text-center">Signup</h1>
   <input id="name" type="text" name="name" class="form-control" placeholder="Name" required autofocus>
   <input type="email" name="email" class="form-control" placeholder="Email" required>
   <input type="password" name="password" class="form-control" placeholder="Password" required>
-  <button class="btn btn--orange btn--radius margin-top-20" type="submit">登録</button>
+  <button class="btn btn--orange btn--radius margin-top-20 margin-bottom-20" type="submit">Signup</button>
+  <br/>
+  <p>既にアカウントをお持ちの方は<a href="/login">こちら</a></p>
 </form>
 {{end}}

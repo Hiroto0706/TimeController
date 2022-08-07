@@ -34,9 +34,13 @@ a {
   background-color: white;
 }
 
+.section-content {
+  padding: 5% 5% 10% 5%;
+}
+
 /* top.htmlのcss */
 .main-title {
-  padding: 10% 10% 30px 10%;
+  padding: 10% 5% 30px 5%;
   text-align: center;
 }
 
@@ -72,9 +76,6 @@ a.btn--radius, .btn--radius {
    border-radius: 100vh;
 }
 
-.section-content {
-  padding: 30px 10% 10% 10%;
-}
 
 .btn-flex {
   display: flex;
@@ -88,7 +89,7 @@ a.btn--radius, .btn--radius {
 
 form {
   margin:0px auto;
-  width:347px;
+  max-width: 347px;
   text-align:center;
 }
 
@@ -99,8 +100,32 @@ form h1 {
 .form-control {
   background:rgba(200, 200, 200, 0.2);
   display:block;
-  width:269px;
-  padding:15px;
+  max-width:300px;
+  padding:5% 30% 5% 5%;
   margin: 10px auto;
 }
 
+
+/* レスポンシブデザイン */
+@media screen and (max-width: 640px){
+  .main-title h1 {
+    font-size: 2rem;
+  }
+
+  .main-title p {
+    font-size: 0.8rem;
+  }
+
+  /* top.htmlのcss */
+  .btn-flex{
+    flex-direction: column;
+  }
+
+  .btn-flex li {
+    width: 100%;
+  }
+
+  .btn-flex li:nth-child(1) {
+    margin-bottom: 20px;
+  }
+}
