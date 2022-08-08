@@ -40,7 +40,6 @@ func signup(w http.ResponseWriter, r *http.Request) {
 			session, err := user.CreateSession()
 			if err != nil {
 				log.Println(err)
-				log.Println("aiueo")
 			}
 
 			cookie := http.Cookie{
@@ -49,7 +48,6 @@ func signup(w http.ResponseWriter, r *http.Request) {
 				HttpOnly: true,
 			}
 			http.SetCookie(w, &cookie)
-
 			http.Redirect(w, r, "/todos", 302)
 		} else {
 			http.Redirect(w, r, "/signup", 302)

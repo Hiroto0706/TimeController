@@ -1,3 +1,21 @@
 {{define "content"}}
+<p>{{.Name}}さんのTODO.</p>
+
+<form class="create-table" action="/todos/create" method="post">
+  <input class="create-todo" type="text" name="todo" placeholder="ここにTODOを入力">
+  <button class="play-btn">再生ボタン</button>
+  
+</form>
+
+<hr>
+
+{{range .Todos}}
+<div>TODO :: {{.Title}}</div>
+<div>StartTime :: {{.StartTime}}</div>
+<div>EndTime :: {{.EndTime}}</div>
+<div>CategoryID :: {{.CategoryID}}</div>
+
+<hr>
+{{end}}
 <div class="logout-btn"><a href="/logout" class="btn btn--color btn--radius">Logout</a></div>
 {{end}}

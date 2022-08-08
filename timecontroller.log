@@ -4,3 +4,501 @@
 2022/08/07 22:15:30 route_auth.go:29: signup のcreateUser前 password 
 2022/08/07 22:15:30 route_auth.go:41: signup のcreateUserあと 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8 
 2022/08/07 22:15:30 route_auth.go:42: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/08 08:55:24 route_auth.go:55: パスワードでエラー
+2022/08/08 08:57:04 route_auth.go:39: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/08 08:57:04 route_auth.go:40: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/08 08:57:04 route_auth.go:55: 最後まで行ってます
+2022/08/08 08:58:49 route_auth.go:39: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/08 08:58:49 route_auth.go:40: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/08 08:58:49 route_auth.go:55: 最後まで行ってます
+2022/08/08 08:59:13 route_auth.go:39: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/08 08:59:13 route_auth.go:40: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/08 08:59:13 route_auth.go:55: 最後まで行ってます
+2022/08/08 08:59:23 route_auth.go:39: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/08 08:59:23 route_auth.go:40: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/08 08:59:23 route_auth.go:55: 最後まで行ってます
+2022/08/08 08:59:31 route_auth.go:39: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/08 08:59:31 route_auth.go:40: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/08 08:59:31 route_auth.go:55: 最後まで行ってます
+2022/08/08 08:59:49 route_auth.go:39: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/08 08:59:49 route_auth.go:40: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/08 08:59:49 route_auth.go:55: 最後まで行ってます
+2022/08/08 09:00:06 route_auth.go:39: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/08 09:00:06 route_auth.go:40: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+2022/08/08 09:00:06 route_auth.go:55: 最後まで行ってます
+2022/08/08 09:12:05 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:06 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:08 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:08 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:19 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:20 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:20 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:20 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:21 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:21 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:21 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:21 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:21 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:21 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:46 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:46 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:46 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:46 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:46 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:46 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:47 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:47 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:47 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:47 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:47 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:47 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:48 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:48 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:49 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:49 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:49 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:49 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:49 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:49 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:50 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:50 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:50 route_main.go:24: sql: no rows in result set
+2022/08/08 09:12:50 route_main.go:24: sql: no rows in result set
+2022/08/08 09:13:05 route_main.go:24: sql: no rows in result set
+2022/08/08 09:13:05 server.go:3197: http: panic serving [::1]:61039: template: index.html:13: unexpected EOF
+goroutine 5 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x1047ec120, 0x14000192080})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x104846148, 0x14000192080})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x104848580, 0x1400016a0e0}, {0x10482bfa0, 0x1400016c480}, {0x14000127348, 0x2, 0x2})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:17 +0xdc
+timecontroller/app/controllers.index({0x104848580, 0x1400016a0e0}, 0x1400015c200)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:28 +0x354
+net/http.HandlerFunc.ServeHTTP(0x104844b58, {0x104848580, 0x1400016a0e0}, 0x1400015c200)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x104a38640, {0x104848580, 0x1400016a0e0}, 0x1400015c200)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x104848580, 0x1400016a0e0}, 0x1400015c200)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x1400011ee60, {0x104848760, 0x14000190000})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/08 09:13:05 route_main.go:24: sql: no rows in result set
+2022/08/08 09:13:05 server.go:3197: http: panic serving [::1]:61040: template: index.html:13: unexpected EOF
+goroutine 6 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x1047ec120, 0x140001922e0})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x104846148, 0x140001922e0})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x104848580, 0x140001d2000}, {0x10482bfa0, 0x1400019c300}, {0x14000127348, 0x2, 0x2})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:17 +0xdc
+timecontroller/app/controllers.index({0x104848580, 0x140001d2000}, 0x1400015c100)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:28 +0x354
+net/http.HandlerFunc.ServeHTTP(0x104844b58, {0x104848580, 0x140001d2000}, 0x1400015c100)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x104a38640, {0x104848580, 0x140001d2000}, 0x1400015c100)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x104848580, 0x140001d2000}, 0x1400015c100)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x1400011ef00, {0x104848760, 0x1400002a4c0})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/08 09:13:05 route_main.go:24: sql: no rows in result set
+2022/08/08 09:13:05 server.go:3197: http: panic serving [::1]:61041: template: index.html:13: unexpected EOF
+goroutine 34 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x1047ec120, 0x14000013430})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x104846148, 0x14000013430})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x104848580, 0x140000ce000}, {0x10482bfa0, 0x1400009e280}, {0x14000127348, 0x2, 0x2})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:17 +0xdc
+timecontroller/app/controllers.index({0x104848580, 0x140000ce000}, 0x140001c4000)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:28 +0x354
+net/http.HandlerFunc.ServeHTTP(0x104844b58, {0x104848580, 0x140000ce000}, 0x140001c4000)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x104a38640, {0x104848580, 0x140000ce000}, 0x140001c4000)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x104848580, 0x140000ce000}, 0x140001c4000)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x140001c2000, {0x104848760, 0x14000190100})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/08 09:13:05 route_main.go:24: sql: no rows in result set
+2022/08/08 09:13:05 server.go:3197: http: panic serving [::1]:61042: template: index.html:13: unexpected EOF
+goroutine 10 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x1047ec120, 0x14000013710})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x104846148, 0x14000013710})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x104848580, 0x1400016a1c0}, {0x10482bfa0, 0x1400016c900}, {0x14000127348, 0x2, 0x2})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:17 +0xdc
+timecontroller/app/controllers.index({0x104848580, 0x1400016a1c0}, 0x1400015c300)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:28 +0x354
+net/http.HandlerFunc.ServeHTTP(0x104844b58, {0x104848580, 0x1400016a1c0}, 0x1400015c300)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x104a38640, {0x104848580, 0x1400016a1c0}, 0x1400015c300)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x104848580, 0x1400016a1c0}, 0x1400015c300)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x1400011efa0, {0x104848760, 0x1400002a9c0})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/08 09:13:06 route_main.go:24: sql: no rows in result set
+2022/08/08 09:13:06 server.go:3197: http: panic serving [::1]:61043: template: index.html:13: unexpected EOF
+goroutine 13 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x1047ec120, 0x14000090520})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x104846148, 0x14000090520})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x104848580, 0x140000ce0e0}, {0x10482bfa0, 0x1400009e500}, {0x140000e7348, 0x2, 0x2})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:17 +0xdc
+timecontroller/app/controllers.index({0x104848580, 0x140000ce0e0}, 0x140000de000)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:28 +0x354
+net/http.HandlerFunc.ServeHTTP(0x104844b58, {0x104848580, 0x140000ce0e0}, 0x140000de000)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x104a38640, {0x104848580, 0x140000ce0e0}, 0x140000de000)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x104848580, 0x140000ce0e0}, 0x140000de000)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x1400011f040, {0x104848760, 0x14000092180})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/08 09:13:06 route_main.go:24: sql: no rows in result set
+2022/08/08 09:13:26 route_main.go:24: sql: no rows in result set
+2022/08/08 09:13:27 route_main.go:24: sql: no rows in result set
+2022/08/08 09:13:31 route_main.go:24: sql: no rows in result set
+2022/08/08 09:13:31 route_main.go:24: sql: no rows in result set
+2022/08/08 09:13:32 route_main.go:24: sql: no rows in result set
+2022/08/08 09:13:32 route_main.go:24: sql: no rows in result set
+2022/08/08 09:13:32 route_main.go:24: sql: no rows in result set
+2022/08/08 09:13:32 route_main.go:24: sql: no rows in result set
+2022/08/08 09:13:32 route_main.go:24: sql: no rows in result set
+2022/08/08 09:13:32 route_main.go:24: sql: no rows in result set
+2022/08/08 09:13:39 route_main.go:24: sql: no rows in result set
+2022/08/08 09:13:39 route_main.go:24: sql: no rows in result set
+2022/08/08 09:15:13 route_main.go:24: sql: no rows in result set
+2022/08/08 09:15:13 route_main.go:24: sql: no rows in result set
+2022/08/08 09:16:49 route_main.go:24: sql: no rows in result set
+2022/08/08 09:16:49 route_main.go:24: sql: no rows in result set
+2022/08/08 09:17:50 route_main.go:24: sql: no rows in result set
+2022/08/08 09:17:50 route_main.go:24: sql: no rows in result set
+2022/08/08 09:18:09 route_main.go:24: sql: no rows in result set
+2022/08/08 09:18:09 route_main.go:24: sql: no rows in result set
+2022/08/08 09:18:09 route_main.go:24: sql: no rows in result set
+2022/08/08 09:18:09 route_main.go:24: sql: no rows in result set
+2022/08/08 09:18:09 route_main.go:24: sql: no rows in result set
+2022/08/08 09:18:09 route_main.go:24: sql: no rows in result set
+2022/08/08 09:18:14 route_main.go:24: sql: no rows in result set
+2022/08/08 09:18:14 route_main.go:24: sql: no rows in result set
+2022/08/08 09:18:15 route_main.go:24: sql: no rows in result set
+2022/08/08 09:18:15 route_main.go:24: sql: no rows in result set
+2022/08/08 09:18:15 route_main.go:24: sql: no rows in result set
+2022/08/08 09:18:15 route_main.go:24: sql: no rows in result set
+2022/08/08 09:18:24 route_main.go:24: sql: no rows in result set
+2022/08/08 09:18:24 route_main.go:24: sql: no rows in result set
+2022/08/08 09:20:11 route_main.go:28: {1 2c0e0f8e-16af-11ed-8615-76f726d9817d Kadota Hiroto mirunina2366@icloud.com  2022-08-08 09:15:13.256239 +0900 +0900 []}
+2022/08/08 09:20:11 route_main.go:28: {1 2c0e0f8e-16af-11ed-8615-76f726d9817d Kadota Hiroto mirunina2366@icloud.com  2022-08-08 09:15:13.256239 +0900 +0900 []}
+2022/08/08 09:20:11 route_main.go:28: {1 2c0e0f8e-16af-11ed-8615-76f726d9817d Kadota Hiroto mirunina2366@icloud.com  2022-08-08 09:15:13.256239 +0900 +0900 []}
+2022/08/08 09:20:12 route_main.go:28: {1 2c0e0f8e-16af-11ed-8615-76f726d9817d Kadota Hiroto mirunina2366@icloud.com  2022-08-08 09:15:13.256239 +0900 +0900 []}
+2022/08/08 09:20:12 route_main.go:28: {1 2c0e0f8e-16af-11ed-8615-76f726d9817d Kadota Hiroto mirunina2366@icloud.com  2022-08-08 09:15:13.256239 +0900 +0900 []}
+2022/08/08 09:20:12 route_main.go:28: {1 2c0e0f8e-16af-11ed-8615-76f726d9817d Kadota Hiroto mirunina2366@icloud.com  2022-08-08 09:15:13.256239 +0900 +0900 []}
+2022/08/08 09:24:50 route_main.go:28: {1 2c0e0f8e-16af-11ed-8615-76f726d9817d Kadota Hiroto mirunina2366@icloud.com  2022-08-08 09:15:13.256239 +0900 +0900 [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]}
+2022/08/08 09:24:50 route_main.go:28: {1 2c0e0f8e-16af-11ed-8615-76f726d9817d Kadota Hiroto mirunina2366@icloud.com  2022-08-08 09:15:13.256239 +0900 +0900 [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]}
+2022/08/08 09:24:50 route_main.go:28: {1 2c0e0f8e-16af-11ed-8615-76f726d9817d Kadota Hiroto mirunina2366@icloud.com  2022-08-08 09:15:13.256239 +0900 +0900 [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]}
+2022/08/08 09:24:51 route_main.go:28: {1 2c0e0f8e-16af-11ed-8615-76f726d9817d Kadota Hiroto mirunina2366@icloud.com  2022-08-08 09:15:13.256239 +0900 +0900 [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]}
+2022/08/08 09:24:51 route_main.go:28: {1 2c0e0f8e-16af-11ed-8615-76f726d9817d Kadota Hiroto mirunina2366@icloud.com  2022-08-08 09:15:13.256239 +0900 +0900 [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]}
+2022/08/08 09:24:51 route_main.go:28: {1 2c0e0f8e-16af-11ed-8615-76f726d9817d Kadota Hiroto mirunina2366@icloud.com  2022-08-08 09:15:13.256239 +0900 +0900 [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]}
+2022/08/08 09:24:51 route_main.go:28: {1 2c0e0f8e-16af-11ed-8615-76f726d9817d Kadota Hiroto mirunina2366@icloud.com  2022-08-08 09:15:13.256239 +0900 +0900 [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]}
+2022/08/08 09:24:51 route_main.go:28: {1 2c0e0f8e-16af-11ed-8615-76f726d9817d Kadota Hiroto mirunina2366@icloud.com  2022-08-08 09:15:13.256239 +0900 +0900 [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]}
+2022/08/08 09:30:16 route_main.go:28: {1 2c0e0f8e-16af-11ed-8615-76f726d9817d Kadota Hiroto mirunina2366@icloud.com  2022-08-08 09:15:13.256239 +0900 +0900 [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]}
+2022/08/08 09:30:16 route_main.go:28: {1 2c0e0f8e-16af-11ed-8615-76f726d9817d Kadota Hiroto mirunina2366@icloud.com  2022-08-08 09:15:13.256239 +0900 +0900 [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]}
+2022/08/08 09:30:28 route_main.go:28: {1 2c0e0f8e-16af-11ed-8615-76f726d9817d Kadota Hiroto mirunina2366@icloud.com  2022-08-08 09:15:13.256239 +0900 +0900 [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]}
+2022/08/08 09:30:28 route_main.go:28: {1 2c0e0f8e-16af-11ed-8615-76f726d9817d Kadota Hiroto mirunina2366@icloud.com  2022-08-08 09:15:13.256239 +0900 +0900 [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]}
+2022/08/08 09:31:08 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 09:31:08 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 09:32:04 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 09:32:04 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 09:32:05 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 09:32:05 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 09:32:33 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 09:32:33 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 09:58:07 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 09:58:07 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:00:48 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:00:48 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:00:49 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:00:49 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:01 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:01 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:01 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:01 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:01 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:02 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:02 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:02 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:11 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:11 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:11 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:11 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:11 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:11 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:22 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:22 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:22 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:22 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:23 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:23 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:23 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:23 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:36 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:36 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:36 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:01:36 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:05:31 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:05:31 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:06:36 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:06:36 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:06:36 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:06:36 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:06:39 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:06:39 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:06:39 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:06:39 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:06:52 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:06:52 route_main.go:28: [{1 プログラミング学習 1 0 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900 2022-08-08 09:24:34.599861 +0900 +0900}]
+2022/08/08 10:15:12 server.go:3197: http: panic serving [::1]:61510: template: layout.html:24: missing value for command
+goroutine 5 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x100c14120, 0x140002e1dc0})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x100c6e148, 0x140002e1dc0})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x100c70580, 0x14000518000}, {0x100c53fa0, 0x14000514580}, {0x140003c5348, 0x2, 0x2})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:17 +0xdc
+timecontroller/app/controllers.index({0x100c70580, 0x14000518000}, 0x140002eb500)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:29 +0x354
+net/http.HandlerFunc.ServeHTTP(0x100c6cb58, {0x100c70580, 0x14000518000}, 0x140002eb500)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x100e60640, {0x100c70580, 0x14000518000}, 0x140002eb500)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x100c70580, 0x14000518000}, 0x140002eb500)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x1400011ee60, {0x100c70760, 0x14000190000})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/08 10:15:12 server.go:3197: http: panic serving [::1]:61513: template: layout.html:24: missing value for command
+goroutine 28 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x100c14120, 0x140002e1fe0})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x100c6e148, 0x140002e1fe0})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x100c70580, 0x140005180e0}, {0x100c53fa0, 0x14000514800}, {0x140000fd348, 0x2, 0x2})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:17 +0xdc
+timecontroller/app/controllers.index({0x100c70580, 0x140005180e0}, 0x1400039a100)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:29 +0x354
+net/http.HandlerFunc.ServeHTTP(0x100c6cb58, {0x100c70580, 0x140005180e0}, 0x1400039a100)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x100e60640, {0x100c70580, 0x140005180e0}, 0x1400039a100)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x100c70580, 0x140005180e0}, 0x1400039a100)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x140000e0000, {0x100c70760, 0x14000092980})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/08 10:15:12 server.go:3197: http: panic serving [::1]:62393: template: layout.html:24: missing value for command
+goroutine 217 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x100c14120, 0x14000424220})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x100c6e148, 0x14000424220})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x100c70580, 0x14000518000}, {0x100c53fa0, 0x140003b4200}, {0x14000561348, 0x2, 0x2})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:17 +0xdc
+timecontroller/app/controllers.index({0x100c70580, 0x14000518000}, 0x140001db900)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:29 +0x354
+net/http.HandlerFunc.ServeHTTP(0x100c6cb58, {0x100c70580, 0x14000518000}, 0x140001db900)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x100e60640, {0x100c70580, 0x14000518000}, 0x140001db900)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x100c70580, 0x14000518000}, 0x140001db900)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x140001fe0a0, {0x100c70760, 0x14000422040})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/08 10:15:13 server.go:3197: http: panic serving [::1]:62394: template: layout.html:24: missing value for command
+goroutine 218 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x100c14120, 0x140002e0210})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x100c6e148, 0x140002e0210})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x100c70580, 0x1400016a0e0}, {0x100c53fa0, 0x140001ba300}, {0x1400055d348, 0x2, 0x2})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:17 +0xdc
+timecontroller/app/controllers.index({0x100c70580, 0x1400016a0e0}, 0x1400039a000)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:29 +0x354
+net/http.HandlerFunc.ServeHTTP(0x100c6cb58, {0x100c70580, 0x1400016a0e0}, 0x1400039a000)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x100e60640, {0x100c70580, 0x1400016a0e0}, 0x1400039a000)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x100c70580, 0x1400016a0e0}, 0x1400039a000)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x140000e0140, {0x100c70760, 0x14000422140})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/08 10:15:14 server.go:3197: http: panic serving [::1]:62395: template: layout.html:24: missing value for command
+goroutine 219 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x100c14120, 0x140002e0430})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x100c6e148, 0x140002e0430})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x100c70580, 0x1400016a1c0}, {0x100c53fa0, 0x140001ba680}, {0x1400055d348, 0x2, 0x2})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:17 +0xdc
+timecontroller/app/controllers.index({0x100c70580, 0x1400016a1c0}, 0x140001da000)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:29 +0x354
+net/http.HandlerFunc.ServeHTTP(0x100c6cb58, {0x100c70580, 0x1400016a1c0}, 0x140001da000)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x100e60640, {0x100c70580, 0x1400016a1c0}, 0x140001da000)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x100c70580, 0x1400016a1c0}, 0x140001da000)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x140000e01e0, {0x100c70760, 0x14000304000})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/08 10:15:23 server.go:3197: http: panic serving [::1]:62414: template: layout.html:24: missing value for command
+goroutine 5 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x100bd4120, 0x14000192060})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x100c2e148, 0x14000192060})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x100c30580, 0x1400016a0e0}, {0x100c13fa0, 0x1400016c400}, {0x14000127348, 0x2, 0x2})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:17 +0xdc
+timecontroller/app/controllers.index({0x100c30580, 0x1400016a0e0}, 0x140001a2000)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:29 +0x354
+net/http.HandlerFunc.ServeHTTP(0x100c2cb58, {0x100c30580, 0x1400016a0e0}, 0x140001a2000)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x100e20640, {0x100c30580, 0x1400016a0e0}, 0x140001a2000)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x100c30580, 0x1400016a0e0}, 0x140001a2000)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x1400011ee60, {0x100c30760, 0x14000190000})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/08 10:15:23 server.go:3197: http: panic serving [::1]:62415: template: layout.html:24: missing value for command
+goroutine 6 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x100bd4120, 0x14000090060})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x100c2e148, 0x14000090060})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x100c30580, 0x140001e0000}, {0x100c13fa0, 0x140001c8280}, {0x14000127348, 0x2, 0x2})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:17 +0xdc
+timecontroller/app/controllers.index({0x100c30580, 0x140001e0000}, 0x140001a2100)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:29 +0x354
+net/http.HandlerFunc.ServeHTTP(0x100c2cb58, {0x100c30580, 0x140001e0000}, 0x140001a2100)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x100e20640, {0x100c30580, 0x140001e0000}, 0x140001a2100)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x100c30580, 0x140001e0000}, 0x140001a2100)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x1400011ef00, {0x100c30760, 0x1400002a4c0})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/08 10:15:23 server.go:3197: http: panic serving [::1]:62416: template: layout.html:24: missing value for command
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x100bd4120, 0x14000090290})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x100c2e148, 0x14000090290})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x100c30580, 0x140000e0000}, {0x100c13fa0, 0x140000be280}, {0x14000127348, 0x2, 0x2})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:17 +0xdc
+timecontroller/app/controllers.index({0x100c30580, 0x140000e0000}, 0x140000ce000)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:29 +0x354
+net/http.HandlerFunc.ServeHTTP(0x100c2cb58, {0x100c30580, 0x140000e0000}, 0x140000ce000)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x100e20640, {0x100c30580, 0x140000e0000}, 0x140000ce000)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x100c30580, 0x140000e0000}, 0x140000ce000)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x140000c2000, {0x100c30760, 0x14000092040})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/08 10:15:23 server.go:3197: http: panic serving [::1]:62417: template: layout.html:24: missing value for command
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x100bd4120, 0x14000013250})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x100c2e148, 0x14000013250})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x100c30580, 0x140000e00e0}, {0x100c13fa0, 0x140000be600}, {0x14000127348, 0x2, 0x2})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:17 +0xdc
+timecontroller/app/controllers.index({0x100c30580, 0x140000e00e0}, 0x140001a2200)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:29 +0x354
+net/http.HandlerFunc.ServeHTTP(0x100c2cb58, {0x100c30580, 0x140000e00e0}, 0x140001a2200)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x100e20640, {0x100c30580, 0x140000e00e0}, 0x140001a2200)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x100c30580, 0x140000e00e0}, 0x140001a2200)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x140000c20a0, {0x100c30760, 0x140001901c0})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800
+2022/08/08 10:15:23 server.go:3197: http: panic serving [::1]:62418: template: layout.html:24: missing value for command
+goroutine 24 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1825 +0x11c
+panic({0x100bd4120, 0x14000013470})
+	/usr/local/go/src/runtime/panic.go:844 +0x26c
+text/template.Must(0x0, {0x100c2e148, 0x14000013470})
+	/usr/local/go/src/text/template/helper.go:25 +0x88
+timecontroller/app/controllers.generateHTML({0x100c30580, 0x1400016a1c0}, {0x100c13fa0, 0x1400016c700}, {0x14000127348, 0x2, 0x2})
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/server.go:17 +0xdc
+timecontroller/app/controllers.index({0x100c30580, 0x1400016a1c0}, 0x140000ce100)
+	/Users/hirotokadota/go/src/timecontroller/app/controllers/route_main.go:29 +0x354
+net/http.HandlerFunc.ServeHTTP(0x100c2cb58, {0x100c30580, 0x1400016a1c0}, 0x140000ce100)
+	/usr/local/go/src/net/http/server.go:2084 +0x48
+net/http.(*ServeMux).ServeHTTP(0x100e20640, {0x100c30580, 0x1400016a1c0}, 0x140000ce100)
+	/usr/local/go/src/net/http/server.go:2462 +0x134
+net/http.serverHandler.ServeHTTP({0x1400016a000}, {0x100c30580, 0x1400016a1c0}, 0x140000ce100)
+	/usr/local/go/src/net/http/server.go:2916 +0x424
+net/http.(*conn).serve(0x140000c2140, {0x100c30760, 0x14000092180})
+	/usr/local/go/src/net/http/server.go:1966 +0x1510
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3071 +0x800

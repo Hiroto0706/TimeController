@@ -91,8 +91,7 @@ a.btn--radius, .btn--radius {
 }
 
 /* signup.htmlのcss*/
-
-form {
+.form-login, .form-signup {
   margin:0px auto;
   max-width: 347px;
   text-align:center;
@@ -105,14 +104,33 @@ form h1 {
 .form-control {
   background:rgba(200, 200, 200, 0.2);
   display:block;
-  max-width:300px;
-  padding:5% 30% 5% 5%;
+  width:350px;
+  padding:5% 5% 5% 5%;
   margin: 10px auto;
+}
+
+/* index.htmlのcss */
+.create-table .create-todo {
+  border: solid 1px rgb(34, 34, 34);
+  border-radius: 5px;
+  margin: 5px 0px;
+  padding: 3px;
+  width: calc(80% - 3px);
+}
+
+.create-table button {
+  border: solid 1px rgb(34, 34, 34);
+  border-radius: 5px;
+  margin: 5px 0px;
+  padding: 3px;
+  width: calc(20% - 3px);
+  color: white;
+  background-color: red;
 }
 
 
 /* レスポンシブデザイン */
-@media screen and (max-width: 640px){
+@media screen and (max-width: 500px){
   .main-title h1 {
     font-size: 2rem;
   }
@@ -132,5 +150,10 @@ form h1 {
 
   .btn-flex li:nth-child(1) {
     margin-bottom: 20px;
+  }
+
+  /* signup.htmlのcss*/
+  .form-control {
+    width:250px;
   }
 }
